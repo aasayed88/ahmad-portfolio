@@ -22,13 +22,21 @@
             min-height: 100vh;
         }
 
+        .profile-img-container {
+            display: inline-block;
+            padding: 8px;
+            background: #ffffffaa;
+            border-radius: 50%;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+            margin-bottom: 20px;
+        }
+
         .profile-img {
             width: 180px;
             height: 180px;
             border-radius: 50%;
-            border: 4px solid #fff;
             object-fit: cover;
-            margin-bottom: 20px;
+            display: block;
         }
 
         h1 {
@@ -78,7 +86,9 @@
 </head>
 <body>
     <div class="overlay">
-        <img src="7C554051-59F0-4A30-874A-05555E03096D.jpeg" alt="Ahmed Photo" class="profile-img">
+        <div class="profile-img-container">
+            <img src="7C554051-59F0-4A30-874A-05555E03096D.jpeg" alt="Ahmed Photo" class="profile-img">
+        </div>
         <h1>أحمد آل عبدالشافي</h1>
         <p>رجل أعمال يؤمن بأن التغيير والتجديد المستمر هما أساس التطوير والنجاح. مهتم في قطاع الضيافة والفندقة، مؤسس مجموعة هلتس المحدودة، وشريك مؤسس في شركة ميفاء الفندقية.</p>
 
